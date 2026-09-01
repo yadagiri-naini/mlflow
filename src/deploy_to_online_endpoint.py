@@ -14,6 +14,7 @@ import argparse
 import datetime
 
 
+
 def get_data_collector() -> DataCollector:
     return DataCollector(
         collections={
